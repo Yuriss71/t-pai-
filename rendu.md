@@ -62,6 +62,10 @@ bantime = 3600
 ### Ensuite on redémarre fail2ban pour le rendre effectif 
 ```
 sudo systemctl restart fail2ban
+
+(si fail2ban n'est pas actif lors du restart on installe rsyslog puis on redémarre fail2ban)
+
+sudo apt install rsyslog (commande pour install rsyslog)
 ````
 ## Configuration de AppArmor 
 
