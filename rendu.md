@@ -76,3 +76,8 @@ sudo apt install apparmor-utils -y
 ```
 sudo aa-status 
 ```
+## Activer les logs et surveiller le système : 
+### pour se faire on va installer logwatch pour analyser les logs (gg) : 
+```
+sudo apt install logwatch -y 
+sudo logwatch --detail High --mailto "notre mail" --range today
